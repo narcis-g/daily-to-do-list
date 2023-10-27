@@ -1,9 +1,9 @@
 import 'normalize.css'
+import Layout from './components/Layout'
 
 export default function App() {
   return (
-    <main>
-      Daily To Do List
-    </main>
+
+    <Layout>Daily to do list</Layout>
   )
 }
